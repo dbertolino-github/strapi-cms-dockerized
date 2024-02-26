@@ -23,12 +23,6 @@
       ],
       "type": "media",
       "multiple": true
-    },
-    "partners": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::partner.partner",
-      "mappedBy": "projects"
     }
   }
 }
